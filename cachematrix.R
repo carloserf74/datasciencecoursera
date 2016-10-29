@@ -10,12 +10,15 @@ makeCacheMatrix <- function(my_matrix = matrix()) {
     my_matrix_inv <<- NULL
   }
   
+  #Get the matrix
   get <- function() my_matrix
   
-  setinverse <- function(inverse) my_matrix_inv <<- inverse
+    #Set the inverse of the matrix
+    setinverse <- function(inverse) my_matrix_inv <<- inverse
   getinverse <- function() my_matrix_inv
   
-  list(set = set, get = get, setinverse = setinverse, getinverse = getinverse)
+    #Return a list
+    list(set = set, get = get, setinverse = setinverse, getinverse = getinverse)
 }
 
 #FUNCTION TO READ THE MATRIX INVERSE iN THE CACHE
