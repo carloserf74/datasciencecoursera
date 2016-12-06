@@ -93,3 +93,6 @@ samsung_train_test_tidy <- dcast(fusionData, subjectID + activity ~ variable, me
 
 # Writing a file
 write.csv(samsung_train_test_tidy, "samsung_train_test_tidy.csv", row.names=FALSE)
+
+# Writing a txt file
+write.table(samsung_train_test_tidy, file = "./samsung_train_test_tidy.txt")
