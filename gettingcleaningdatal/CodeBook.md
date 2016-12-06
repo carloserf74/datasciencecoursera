@@ -4,7 +4,7 @@ Human Activity Recognition Using Smartphones Data Set
 
 **Abstract**: Human Activity Recognition database built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
 
-| **TITLE**                      | VALUE                      | **TITLE**                 | VALUE | **TITLE**             | VALUE      |
+| TITLE                          | VALUE                      | TITLE                     | VALUE | TITLE                 | VALUE      |
 |--------------------------------|----------------------------|---------------------------|-------|-----------------------|------------|
 | **Data Set Characteristics:**  | Multivariate, Time-Series  | **Number of Instances:**  | 10299 | **Area:**             | Computer   |
 | **Attribute Characteristics:** | N/A                        | **Number of Attributes:** | 561   | **Date Donated:**     | 2012-12-10 |
